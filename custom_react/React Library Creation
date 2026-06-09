@@ -1,0 +1,25 @@
+1. create a html file "index.html"
+2. create a Js file name as "customreact.js"
+3. access the index.html using dom and name it as container
+4. create a element with type and attributes eg: anchor tag
+{
+    const reactElement={
+    type: 'a',
+    props:{
+        href :"https://www.google.com",
+        target : "_blank",
+    },
+    children :"click here to continue"
+};
+}
+5. create a function that need for page rendoring and pass reactElement and container as parameters
+6. add element to the container {
+    function customrendor(reactElement, container){
+    const domElement = document.createElement(reactElement.type);
+    domElement.innerHTML=reactElement.children;
+    domElement.setAttribute("href",reactElement.props.href);
+    domElement.setAttribute("target", reactElement.props.target);
+    container.appendChild(domElement);
+}
+}
+7. call the function
