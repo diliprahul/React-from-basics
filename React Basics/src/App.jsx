@@ -1,12 +1,12 @@
 import { useState } from 'react'
-import NewFunction from './NewFile'
+import NewComponent from './NewComponent'
 
 function App() {
   
 
   return (
    <>
-   <NewFunction />
+  <NewComponent />
    </>
   )
 }
