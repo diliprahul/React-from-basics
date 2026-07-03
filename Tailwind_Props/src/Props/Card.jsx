@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-export default function Card3(Props) {
+export default function Card3({ expression = "sad", random_num=69 }) {
   return (
     <div className="w-60 flex flex-col rounded-xl bg-black min-h-[19rem] ">
       <div>
@@ -11,11 +11,11 @@ export default function Card3(Props) {
       </div>
       <div className="flex flex-col py-3 px-3 pb-10">
         <div className="flex justify-between ">
-          <h1 className="font-bold ">{Props.feeling}</h1>
+          <h1 className="font-bold ">{expression} ape nft accidental</h1>
           <h1>Price</h1>
         </div>
         <div className="flex  justify-between">
-          <p>#345</p>
+          <p>#{random_num}</p>
           <p>0.01</p>
         </div>
       </div>

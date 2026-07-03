@@ -50,7 +50,7 @@
     filter: invert(1) brightness(2);
   }
 }
-
+/* 
 body {
   margin: 0;
 }
@@ -67,13 +67,14 @@ body {
   box-sizing: border-box;
 }
 
-/* h1,
+h1,
 h2 {
   font-family: var(--heading);
   font-weight: 500;
-} */
+  color: var(--text-h);
+}
 
-/* h1 {
+h1 {
   font-size: 56px;
   letter-spacing: -1.68px;
   margin: 32px 0;
